@@ -145,7 +145,7 @@ No network fetches happen at runtime — the CSP blocks them anyway.
 
 ### Lossless files
 
-For text files and the lossless PNG path, the extension computes a SHA-256 hash of the original content and compares it with the rebuilt output. If both hashes match, the rebuild is an exact byte-for-byte reconstruction.
+For text files and the lossless PNG path, the extension computes a SHA-256 hash of the original content and compares it with the rebuilt output. If both hashes match, then the rebuild is an exact byte-for-byte reconstruction.
 
 Displayed fields include:
 
