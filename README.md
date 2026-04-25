@@ -226,7 +226,7 @@ Add these screenshots before submission:
 - [fflate](https://www.npmjs.com/package/fflate) — FFlate Documentation
 - [UPNG.js](https://github.com/photopea/UPNG.js) — Fast, advanced PNG encoder/decoder
 - [jpeg-js](https://github.com/jpeg-js/jpeg-js) — Pure JavaScript JPEG encoder/decoder
-- [lamejs](https://github.com/zhuker/lamejs) — MP3 encoder in JavaScript
+- [lamejs](https://github.com/zhuker/lamejs) — MP3 encoder in JavaScript.
 - [ffmpeg.wasm](https://github.com/ffmpegwasm/ffmpeg.wasm) — FFmpeg compiled to WebAssembly
 
 ### MDN Web Docs
