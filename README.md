@@ -130,16 +130,126 @@ No network fetches happen at runtime — the CSP blocks them anyway.
 
 ## Compression Results Table
 
-> Replace this table with actual measured results from your own sample files before submission.
+#  Compression Test Results
+
+## TXT File
+
+| Metric | Value |
+|--------|-------|
+| Original File | `sample.txt` |
+| Original Size | 607 bytes |
+| Compressed Size | 387 bytes |
+| Compression Ratio | 1.57 : 1 |
+| Space Savings | 36.24% |
+| Time Taken | ~2 ms |
+
+---
+
+## CSV File
+
+| Metric | Value |
+|--------|-------|
+| Original File | `sample_dataset.csv` |
+| Original Size | 17.92 MB |
+| Compressed Size | 2.02 MB |
+| Compression Ratio | 8.85 : 1 |
+| Space Savings | 88.71% |
+| Time Taken | ~2 ms |
+
+---
+
+## PNG File
+
+| Metric | Value |
+|--------|-------|
+| Original File | `20mb.png` |
+| Original Size | 20.10 MB |
+| Compressed Size | 2.86 MB |
+| Compression Ratio | 7.02 : 1 |
+| Space Savings | 85.75% |
+| Time Taken | ~10 ms |
+
+---
+
+## JPG File
+
+| Metric | Value |
+|--------|-------|
+| Original File | `25mb.jpg` |
+| Original Size | 25.49 MB |
+| Compressed Size | 5.44 MB |
+| Compression Ratio | 4.68 : 1 |
+| Space Savings | 78.65% |
+| Time Taken | ~4 ms |
+
+---
+
+## WEBM File
+
+| Metric | Value |
+|--------|-------|
+| Original File | `sample.webm` |
+| Original Size | 16.45 MB |
+| Compressed Size | 13.12 MB |
+| Compression Ratio | 1.25 : 1 |
+| Space Savings | 20.26% |
+| Time Taken | ~65 ms |
+
+---
+
+## MP3 File
+
+| Metric | Value |
+|--------|-------|
+| Original File | `sample.mp3` |
+| Original Size | 5.07 MB |
+| Compressed Size | 3.04 MB |
+| Compression Ratio | 1.67 : 1 |
+| Space Savings | 40.01% |
+| Time Taken | ~49 ms |
+
+---
+
+## MP4 File
+
+| Metric | Value |
+|--------|-------|
+| Original File | `KalamSir_720p.mp4` |
+| Original Size | 4.79 MB |
+| Compressed Size | 3.93 MB |
+| Compression Ratio | 1.22 : 1 |
+| Space Savings | 18.10% |
+| Time Taken | ~93 ms |
+
+---
+
+## WAV File
+
+| Metric | Value |
+|--------|-------|
+| Original File | `sample.wav` |
+| Original Size | 10.06 MB |
+| Compressed Size | 934.50 KB |
+| Compression Ratio | 11.02 : 1 |
+| Space Savings | 90.92% |
+| Time Taken | ~54 ms |
+
+---
+
+## Summary
 
 | File Type | Sample File | Original Size | Compressed Size | Compression Ratio | Space Savings |
-|---|---|---:|---:|---:|---:|
-| Text (.txt) | `sample.txt` | 18.0 KB | 5.2 KB | 3.46 : 1 | 71.11% |
-| Image (.png) | `sample.png` | 210 KB | 184 KB | 1.14 : 1 | 12.38% |
-| Image (.jpg) | `sample.jpg` | 420 KB | 182 KB | 2.31 : 1 | 56.67% |
-| Audio (.wav → .mp3) | `sample.wav` | 3.8 MB | 620 KB | 6.28 : 1 | 83.68% |
-| Audio (.mp3) | `sample.mp3` | 2.4 MB | 1.1 MB | 2.18 : 1 | 54.17% |
-| Video (.mp4) | `sample.mp4` | 14.0 MB | 6.1 MB | 2.30 : 1 | 56.43% |
+|-----------|-------------|:-------------:|:---------------:|:-----------------:|:-------------:|
+| TXT | `sample.txt` | 607 bytes | 387 bytes | 1.57 : 1 | 36.24% |
+| CSV | `sample_dataset.csv` | 17.92 MB | 2.02 MB | 8.85 : 1 | 88.71% |
+| PNG | `20mb.png` | 20.10 MB | 2.86 MB | 7.02 : 1 | 85.75% |
+| JPG | `25mb.jpg` | 25.49 MB | 5.44 MB | 4.68 : 1 | 78.65% |
+| WEBM | `sample.webm` | 16.45 MB | 13.12 MB | 1.25 : 1 | 20.26% |
+| MP3 | `sample.mp3` | 5.07 MB | 3.04 MB | 1.67 : 1 | 40.01% |
+| MP4 | `KalamSir_720p.mp4` | 4.79 MB | 3.93 MB | 1.22 : 1 | 18.10% |
+| WAV | `sample.wav` | 10.06 MB | 934.50 KB | 11.02 : 1 | 90.92% |
+
+> **Key Insight:** WAV and CSV compress exceptionally well (90%+ and 88%+ savings). PNG and JPG also show strong gains due to unoptimized source files. Already-encoded formats like WEBM and MP4 yield minimal compression benefits.
 
 ## Rebuild Verification
 
