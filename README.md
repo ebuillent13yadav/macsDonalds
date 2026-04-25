@@ -320,14 +320,53 @@ Suggested evidence to include in your final GitHub README:
 - Chrome extension CSP rules are strict; all vendor libraries are bundled locally inside `lib/` so nothing is fetched at runtime.
 
 ## Screenshots
-
-Add these screenshots before submission:
-
 1. Popup home screen
-2. Compression result for text
-3. Compression result for image
-4. Audio/video result screen
-5. Decompression result with hash verification
+<img width="504" height="715" alt="WhatsApp Image 2026-04-25 at 20 08 35" src="https://github.com/user-attachments/assets/c0133123-52d1-4d46-8e68-dc78314e620d" />
+<img width="504" height="715" alt="WhatsApp Image 2026-04-25 at 20 08 35" src="https://github.com/user-attachments/assets/97d3f32b-eeeb-44ee-9ccc-41bceeb467d0" />
+
+2. Compression/Decompression result for text
+<img width="786" height="1086" alt="image" src="https://github.com/user-attachments/assets/b4f86201-c5ca-450e-a0ee-885565510231" />
+<img width="792" height="1095" alt="image" src="https://github.com/user-attachments/assets/db9911eb-51a6-41b3-931f-e38930979891" />
+<img width="784" height="1174" alt="image" src="https://github.com/user-attachments/assets/5cc96b34-60b8-4e26-8ccb-869abe0105cc" />
+<img width="794" height="999" alt="image" src="https://github.com/user-attachments/assets/5c8c3e0b-981b-43dd-965e-df98d5f28c2f" />
+
+3. Compression/Decompression result for csv file
+<img width="753" height="1053" alt="image" src="https://github.com/user-attachments/assets/2c9e60fc-7e3a-449b-a133-e119dd7914f7" />
+<img width="791" height="1109" alt="image" src="https://github.com/user-attachments/assets/a1ceead3-09da-454f-b6fe-2b2f20713dcf" />
+<img width="761" height="1138" alt="image" src="https://github.com/user-attachments/assets/19bbeab3-3bf3-4f22-8c7e-c2afe578013b" />
+<img width="769" height="861" alt="image" src="https://github.com/user-attachments/assets/010a3e70-c6a2-4d1b-9bca-b767b2f3266e" />
+
+4. Compression/Decompression result for png file
+<img width="748" height="1180" alt="image" src="https://github.com/user-attachments/assets/5d595da7-8eab-4f02-8a3d-60864a2b83e2" />
+<img width="775" height="1106" alt="image" src="https://github.com/user-attachments/assets/756bf1f0-0313-4d30-bfe3-864f65eb4bf2" />
+<img width="781" height="1159" alt="image" src="https://github.com/user-attachments/assets/c0cbb996-1a28-4606-b9c9-345b78969926" />
+<img width="783" height="928" alt="image" src="https://github.com/user-attachments/assets/f5cc214c-4fc8-4e71-bde3-61c068e99901" />
+
+5. Compression/Decompression result for jpeg file
+<img width="775" height="1089" alt="image" src="https://github.com/user-attachments/assets/7e1881ab-e6ac-4e02-b797-31a0d68344e7" />
+<img width="808" height="884" alt="image" src="https://github.com/user-attachments/assets/d4d95a3d-41c2-427f-a959-56c7b9224d67" />
+<img width="809" height="1188" alt="image" src="https://github.com/user-attachments/assets/cd10db3f-501e-474d-bc1d-3f946253ed54" />
+<img width="777" height="809" alt="image" src="https://github.com/user-attachments/assets/887a2087-b728-4bd2-8120-844f67ae7db3" />
+
+6. Compression/Decompression result for WEBM file
+<img width="774" height="1099" alt="image" src="https://github.com/user-attachments/assets/b46ae7c7-9f99-4fb4-924f-4fbbed459439" />
+<img width="764" height="1128" alt="image" src="https://github.com/user-attachments/assets/10d23bd1-c954-4b19-a5ab-a826fb17adce" />
+<img width="769" height="1175" alt="image" src="https://github.com/user-attachments/assets/2adff5ea-5b2a-4c98-bac1-1df6dd5baf6a" />
+
+7. Compression/Decompression result for mp3 file
+<img width="775" height="1120" alt="image" src="https://github.com/user-attachments/assets/0b4ccbb2-1c59-432f-97d4-b6b56bbd8806" />
+<img width="788" height="1033" alt="image" src="https://github.com/user-attachments/assets/66fd2a20-04bc-4df2-8666-80fc1432dd94" />
+<img width="747" height="1142" alt="image" src="https://github.com/user-attachments/assets/b528d6f1-4a4c-4558-ab88-b7ed9e3bdb87" />
+
+8. Compression/Decompression result for mp4 file
+<img width="781" height="1106" alt="image" src="https://github.com/user-attachments/assets/f6b8bccd-355a-47d7-97af-df69a06ebbcd" />
+<img width="772" height="1116" alt="image" src="https://github.com/user-attachments/assets/34cc2c25-af78-4031-83ef-434676620a72" />
+<img width="741" height="1178" alt="image" src="https://github.com/user-attachments/assets/3ae41db6-8532-453f-92c6-672cb355c59d" />
+  
+9. Compression/Decompression result for WAV file
+<img width="758" height="1095" alt="image" src="https://github.com/user-attachments/assets/aca09ed7-1326-46ac-b266-efef47dffd10" />
+<img width="761" height="1053" alt="image" src="https://github.com/user-attachments/assets/15ac8fd5-9547-4890-a88e-79ae8743373b" />
+<img width="749" height="1149" alt="image" src="https://github.com/user-attachments/assets/cc04d35e-2eba-4895-ac1a-47dbdad95251" />
 
 ## References
 
