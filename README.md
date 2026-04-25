@@ -9,7 +9,7 @@ A Chrome extension project for compressing and decompressing files directly insi
 
 This extension provides a popup-based interface where users can upload a file, automatically detect its type, and run an appropriate compression flow. Text files are compressed using lossless GZIP packaging, PNG uses a lossless image path, JPEG uses lossy quality-controlled re-encoding, and audio/video use browser-side FFmpeg WASM pipelines for lossy re-encoding. After processing, the extension shows original size, compressed size, compression ratio, and space savings percentage. It also supports rebuild verification using SHA-256 for lossless outputs and PSNR / bitrate comparison for lossy outputs.
 
-## Team Members
+## Team Members 
 
 | # | Name | Role |
 |---|------|------|
