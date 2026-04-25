@@ -9,16 +9,6 @@ A Chrome extension project for compressing and decompressing files directly insi
 
 This extension provides a popup-based interface where users can upload a file, automatically detect its type, and run an appropriate compression flow. Text files are compressed using lossless GZIP packaging, PNG uses a lossless image path, JPEG uses lossy quality-controlled re-encoding, and audio/video use browser-side FFmpeg WASM pipelines for lossy re-encoding. After processing, the extension shows original size, compressed size, compression ratio, and space savings percentage. It also supports rebuild verification using SHA-256 for lossless outputs and PSNR / bitrate comparison for lossy outputs.
 
-## Team Members 
-
-| # | Name | Role |
-|---|------|------|
-| 1 | Devang Shrivastava | Lossy Media Engine |
-| 2 | Gautam Arora | UI / popup design |
-| 3 | Ganesh | Lossless compression / verification |
-| 4 | Divanshu yadav | Image compression / metrics |
-| 5 | Gatik | Audio / video pipeline |
-| 6 | Chetan | Testing / README  |
 
 ## Features
 
@@ -368,6 +358,17 @@ Suggested evidence to include in your final GitHub README:
 <img width="761" height="1053" alt="image" src="https://github.com/user-attachments/assets/15ac8fd5-9547-4890-a88e-79ae8743373b" />
 <img width="749" height="1149" alt="image" src="https://github.com/user-attachments/assets/cc04d35e-2eba-4895-ac1a-47dbdad95251" />
 
+## Team contribution
+The project was designed, developed, tested, and finalized as a group initiative, with each member contributing equally at every stage of the process.Testing procedures, including debugging and validation, were performed collaboratively to ensure the reliability of the final product.The team was structured to address key components of the project, including the Lossy Media Engine, Audio/Video Processing Pipeline, Image Compression and Performance Metrics, Lossless Compression and Verification, and UI/Popup Design. Each domain was managed collaboratively, ensuring balanced involvement.
+
+| # | Name | Project Contribution |
+|---|------|------|
+| 1 | Devang Shrivastava | 16.66% |
+| 2 | Gautam Arora | 16.66% |
+| 3 | Ganesh | 16.66% |
+| 4 | Divanshu yadav | 16.66% |
+| 5 | Gatik | 16.66% |
+| 6 | Chetan | 16.66% |
 ## References
 
 ### Libraries
